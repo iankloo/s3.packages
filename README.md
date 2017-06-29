@@ -18,6 +18,15 @@ mys3bucket
 ...
 ```
 
+
+## Installation
+
+Note, this package depends on: aws.s3 and devtools
+```
+devtools::install_github('iankloo/s3.packages')
+```
+
+
 ## Using the function
 
 You will need to know: the name of the s3 bucket, the name of the package, and your aws keys.  For more info on the aws keys, see the documentation for the aws.s3 R package.  
