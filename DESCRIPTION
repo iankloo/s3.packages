@@ -1,0 +1,12 @@
+Package: s3.packages
+Title: Install packages from an s3 bucket
+Version: 0.0.0.9000
+Authors@R: person("Ian", "Kloo", email = "iankloo@gmail.com", role = c("aut", "cre"))
+Description: Install packages from an s3 bucket.
+Depends: R (>= 3.0.0)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports: devtools,
+    aws.s3
+RoxygenNote: 6.0.1
